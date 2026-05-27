@@ -34,5 +34,5 @@ sudo udevadm control --reload-rules
 sudo udevadm trigger
 ```
 
-# certain apps would default back to the default mouse cursor
+# certain apps would default back to the default mouse cursor icon
 this happens with flatpack apps installed. idk the exact reason, but changing the location of the cursors to `~/.local/share/icons` instead of `~/.icons` fixed it.
